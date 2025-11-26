@@ -3,7 +3,7 @@ services:
   name: elasticsearch
   env: docker
   plan: standard
-  region: ohio
+  region: frankfurt
   disk:
     name: esdata
     mountPath: /usr/share/elasticsearch/data
